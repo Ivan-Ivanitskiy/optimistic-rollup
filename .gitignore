@@ -3,4 +3,3 @@ artifacts
 cache
 typechain-types
 dist
-package-lock.json
