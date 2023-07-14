@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es2020",
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
     "module": "commonjs",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "skipLibCheck": true,
-    "resolveJsonModule": true
-  }
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node"
+  },
+  "include": ["./src/**/*"]
 }

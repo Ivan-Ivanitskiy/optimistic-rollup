@@ -35,7 +35,7 @@ contract DummyDepositWithdraw {
         emit Deposit(msg.sender, msg.value);
     }
 
-    function withdraw(uint wad) public {
+    function withdraw(uint wad) public {    
         require(_balances[msg.sender] >= wad);
         _balances[msg.sender] -= wad;
         payable(msg.sender).transfer(wad);
