@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  mode: 'development',
   entry: './src/Rollup.ts',
   devtool: 'source-map',
   module: {
